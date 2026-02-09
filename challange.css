@@ -1,12 +1,27 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
 body {
-  border: 5px solid #302f2f;
+  height: 100%;
+  width: 100%;
   padding: 20px;
   font-family: sans-serif;
-  line-height: 1.4;
+  line-height: 1.7;
+}
+
+.container {
+  padding: 50px;
+  width: 50%;
+  margin: 30px auto;
+  border: 5px solid #302f2f;
 }
 
 .prod-head {
   text-align: center;
+  margin: 20px;
 }
 
 a {
@@ -20,8 +35,9 @@ a:hover {
 }
 
 button {
+  margin-top: 30px;
   padding: 10px;
-  width: 150px;
+  width: 100%;
   font-weight: bold;
   border: 1px solid black;
   border-radius: 5px;
@@ -36,4 +52,9 @@ button:hover {
 li {
   list-style: square;
   /* list-style: number / square / decimal / armenian ;  can be anything that want*/
+  line-height: 1.5;
+}
+
+ul {
+  padding-left: 40px;
 }
